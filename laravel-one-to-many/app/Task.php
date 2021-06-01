@@ -10,7 +10,8 @@ class Task extends Model
 {
     protected $fillable = [
         'title',
-        'description'
+        'description',
+        'employee_id'
     ];
 
     public function employees() {
